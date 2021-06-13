@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 3.5rem;
+    box-shadow: 0 2rem 5rem rgba(#000, 0.5);
 
     &__img {
         width: 100%;
