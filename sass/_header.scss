@@ -1,8 +1,7 @@
 .header {
     background-color: $color-grey-dark-1;
     grid-column: full-start / col-end 6;
-    background-image: linear-gradient(rgba($color-secondary, 0.93), rgba($color-secondary, 0.93)),
-        url(../img/hero.jpeg);
+    background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)), url(../img/hero.jpeg);
     background-size: cover;
     background-position: center;
     padding: 8rem;
@@ -18,7 +17,7 @@
         grid-column: 1 / -1;
     }
 
-    @media only screen and (max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-small) {
         padding: 5rem;
     }
 
@@ -43,7 +42,7 @@
 
         &::before,
         &::after {
-            content: '';
+            content: "";
             height: 1px;
             display: block;
             background-color: currentColor;
